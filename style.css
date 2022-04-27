@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f1f1f1;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scores{
+    display: flex;
+    justify-content: center;
+    transform: translate(150%, 20%);
+}
+.navbar{
+    width: 900px;
+    display: flex;
+}
+h5{
+    margin: 10px;
+}
+button{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    background-color: #bdf2ff;
+    border-style: none;
+    border-radius: 50%;
+}
+button:hover{
+    background-color: #89e5fc;
+}
+
+.buttons{
+    margin-top: 80px;
+}
+
+.winner{
+    margin: 50px;
+}
+input{
+    width: 100px;
+    margin: 50px;
+    padding: 7px;
+}
